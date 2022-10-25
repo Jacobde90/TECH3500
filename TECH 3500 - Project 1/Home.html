@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>DJ Wedding Photography</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
+    </head>
+<body>
+    <div class="banner">
+        <div class="container-fluid">
+        <div class="navbar">
+            <img src="logo2.png" class="logo">
+            <div class="pill-nav">
+            <ul>
+                <li class="active"><a href="home.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li><a href="about.html"><span class="glyphicon glyphicon-user"></span> About Me</a></li>
+                <li><a href="work.html"><span class="glyphicon glyphicon-zoom-in"></span> Experience</a></li>
+                 <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+            </ul>
+        </div>
+        </div>
+
+        <h1 class="text-center">Welcome To Devon Wedding Photography</h1>
+                <p>Here For Your Wedding Photography Needs Since 2017</p>
+                <div class="row">
+                    <div class="column">
+                      <img src="ind.jpeg" alt="Snow" style="width:100%" height="300px">
+                    </div>
+                    <div class="column">
+                      <img src="bridal.jpg" alt="Forest" style="width:100%" height="300px">
+                    </div>
+                    <div class="column">
+                      <img src="couple.jpg" alt="Mountains" style="width:100%" height="300px">
+                    </div>
+                  </div>
+                <p>All clients are welcome in front of my camera, no matter who you love,<br> what you look like, how do you identify yourself, or what you belive in</p>
+                <p>I am dedicated to meeting you needs for professional high quality photographs</p> 
+                <p>Click on the icon like/dislike:
+                    <i onclick="myFunction(this)" class="fa fa-thumbs-up"></i>
+            <script>
+                    function myFunction(x) {
+                    x.classList.toggle("fa-thumbs-down");
+                    }
+            </script></p>
+
+                <div class="button">
+                    <button id="myBtn">Display Date/Time</button>
+                        <p id="demo"></p></div>
+            <script>
+                document.getElementById("myBtn").addEventListener("click", displayDate);
+
+                function displayDate() {
+                document.getElementById("demo").innerHTML = Date();
+                    }
+            </script>
+                <hr>
+        <Footer class="footer">
+            <div class="wrapper">
+                <a href="#" class="icon facebook">
+                  <div class="tooltip">Facebook</div>
+                  <span><i class="fab fa-facebook-f"></i></span>
+                </a>
+                <a href="#" class="icon twitter">
+                  <div class="tooltip">Twitter</div>
+                  <span><i class="fab fa-twitter"></i></span>
+                </a>
+                <a href="#" class="icon instagram">
+                  <div class="tooltip">Instagram</div>
+                  <span><i class="fab fa-instagram"></i></span>
+                </a>
+              </div>
+        </div>
+    </Footer>
+        </div>
+    </div>
+    
+</body>
+</html>
